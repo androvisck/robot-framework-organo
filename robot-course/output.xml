@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.3 on linux)" generated="2026-01-03T18:00:33.635159" rpa="false" schemaversion="5">
+<suite id="s1" name="First Test" source="/home/androbr/Documentos/learning_robot/robot-framework-organo/robot-course/first_test.robot">
+<test id="s1-t1" name="Abrir navegador e acessar o site do organo" line="4">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-01-03T18:00:33.859075" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000/'.</msg>
+<arg>url=http://localhost:3000/</arg>
+<arg>browser=Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-01-03T18:00:33.858490" elapsed="7.879665"/>
+</kw>
+<status status="PASS" start="2026-01-03T18:00:33.856130" elapsed="7.883372"/>
+</test>
+<status status="PASS" start="2026-01-03T18:00:33.636620" elapsed="8.107887"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="First Test" id="s1" pass="1" fail="0" skip="0">First Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

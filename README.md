@@ -1,4 +1,4 @@
-# Getting Started with Create React App TEST
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Running on Linux
+- Instalar Python
+- Instalar Node
+- Instalar Robot Framework
+`
+pip install robotframework
+`
+- Instalar SeleniumLibrary
+`
+pip install --upgrade robotframework-seleniumlibrary
+`
+- Instalar o ChromeDriver
+`
+https://googlechromelabs.github.io/chrome-for-testing/
+`
+unzip chromedriver_linux64.zip\\
+chmod +x chromedriver_linux64\\
+sudo mv chromedriver_linux64 /usr/local/bin/\\
+
+- Instalar Organo
+`
+https://github.com/alura-cursos/robot-framework-organo/archive/refs/heads/main.zip
+`
+- npm install
+- npm start
