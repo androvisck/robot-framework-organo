@@ -73,24 +73,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Instalar Python
 - Instalar Node
 - Instalar Robot Framework
-`
+``
 pip install robotframework
-`
+``
 - Instalar SeleniumLibrary
-`
+``
 pip install --upgrade robotframework-seleniumlibrary
-`
+``
 - Instalar o ChromeDriver
-`
+``
 https://googlechromelabs.github.io/chrome-for-testing/
-`
-unzip chromedriver_linux64.zip\\
-chmod +x chromedriver_linux64\\
-sudo mv chromedriver_linux64 /usr/local/bin/\\
+``
+* unzip chromedriver_linux64.zip\\
+* chmod +x chromedriver_linux64\\
+* sudo mv chromedriver_linux64 /usr/local/bin/\\
 
 - Instalar Organo
-`
+``
 https://github.com/alura-cursos/robot-framework-organo/archive/refs/heads/main.zip
-`
+``
 - npm install
 - npm start
