@@ -1,2 +1,0 @@
-# robot-framework-organo
-test
