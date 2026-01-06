@@ -2073,25 +2073,25 @@ storage = function () {
 window.output = {};
 </script>
 <script type="text/javascript">
-window.output["suite"] = [1,2,3,0,[],[1,0,17211],[],[[4,0,0,[],[1,148,1059],[[0,5,6,0,7,8,0,0,[1,149,1057],[[150,2,9]]]]],[10,0,0,[],[1,1207,15999],[[0,11,6,0,12,13,0,0,[1,1208,229],[[1209,2,14]]],[0,11,6,0,12,15,0,0,[1,1437,130],[[1438,2,16]]],[0,11,6,0,12,17,0,0,[1,1567,151],[[1568,2,18]]],[0,19,6,0,20,21,0,0,[1,1719,157],[[1719,2,22]]],[0,19,6,0,20,23,0,0,[1,1877,55],[[1877,2,24]]],[0,25,26,0,27,28,0,0,[1,1932,10001],[[11933,2,29]]],[0,19,6,0,20,30,0,0,[1,11934,232],[[11935,2,31]]],[0,32,6,0,33,34,0,0,[1,12167,37],[[12204,2,35]]],[0,25,26,0,27,36,0,0,[1,12204,5001],[[17205,2,37]]]]]],[],[2,2,0,0]];
+window.output["suite"] = [1,2,3,0,[],[1,0,2443],[],[[4,0,0,[],[1,205,2236],[[0,5,0,0,0,0,0,0,[1,209,1270],[[0,6,7,0,8,9,0,0,[1,210,1268],[[211,2,10]]]]],[0,11,0,0,0,0,0,0,[1,1481,814],[[0,12,7,0,13,14,0,0,[1,1483,287],[[1486,2,15]]],[0,12,7,0,13,16,0,0,[1,1771,163],[[1771,2,17]]],[0,12,7,0,13,18,0,0,[1,1934,215],[[1935,2,19]]],[0,20,7,0,21,22,0,0,[1,2149,79],[[2150,2,23]]],[0,20,7,0,21,24,0,0,[1,2229,64],[[2230,2,25]]]]],[0,26,0,0,0,0,0,0,[1,2295,95],[[0,20,7,0,21,27,0,0,[1,2296,95],[[2297,2,28]]]]],[0,29,0,0,0,0,0,0,[1,2390,51],[[0,30,7,0,31,32,0,0,[1,2391,50],[[2441,2,33]]]]]]]],[],[1,1,0,0]];
 </script>
 <script type="text/javascript">
 window.output["strings"] = [];
 </script>
 <script type="text/javascript">
-window.output["strings"] = window.output["strings"].concat(["*","*First Test","*/home/androbr/Documentos/learning_robot/robot-framework-organo/robot-course/first_test.robot","*first_test.robot","*Abrir navegador e acessar o site do organo","*Open Browser","*SeleniumLibrary","*<p>Opens a new browser instance to the optional <code>url\x3c/code>.\x3c/p>","*url=http://localhost:3000/    browser=Chrome","*Opening browser 'Chrome' to base url '<a href=\"http://localhost:3000/\">http://localhost:3000/\x3c/a>'.","*Preencher os campos do formulário","*Input Text","*<p>Types the given <code>text\x3c/code> into the text field identified by <code>locator\x3c/code>.\x3c/p>","*id:form-nome    Akemi","*Typing text 'Akemi' into text field 'id:form-nome'.","*id:form-cargo    Desenvolvedora","*Typing text 'Desenvolvedora' into text field 'id:form-cargo'.","*id:form-imagem    <a href=\"https://picsum.photos/200/300\">https://picsum.photos/200/300\x3c/a>","*Typing text '<a href=\"https://picsum.photos/200/300\">https://picsum.photos/200/300\x3c/a>' into text field 'id:form-imagem'.","*Click Element","*<p>Click the element identified by <code>locator\x3c/code>.\x3c/p>","*class:lista-suspensa","*Clicking element 'class:lista-suspensa'.","*//option[contains(.,'Programação')]","*Clicking element '//option[contains(.,'Programação')]'.","*Sleep","*BuiltIn","*<p>Pauses the test executed for the given time.\x3c/p>","*10s","*Slept 10 seconds.","*id:form-botao","*Clicking element 'id:form-botao'.","*Element Should Be Visible","*<p>Verifies that the element identified by <code>locator\x3c/code> is visible.\x3c/p>","*class:colaborador","*Element 'class:colaborador' is displayed.","*5s","*Slept 5 seconds."]);
+window.output["strings"] = window.output["strings"].concat(["*","*First Test","*/home/androbr/Documentos/learning_robot/robot-framework-organo/robot-course/first_test.robot","*first_test.robot","*Verificar se ao preencher corretamente o formulário os dados são inseridos corretamente na lista e se um novo card é criado no time esperado","*Dado que eu acesse o Organo","*Open Browser","*SeleniumLibrary","*<p>Opens a new browser instance to the optional <code>url\x3c/code>.\x3c/p>","*url=http://localhost:3000/    browser=Chrome","*Opening browser 'Chrome' to base url '<a href=\"http://localhost:3000/\">http://localhost:3000/\x3c/a>'.","*E preencha os campos do Formulário","*Input Text","*<p>Types the given <code>text\x3c/code> into the text field identified by <code>locator\x3c/code>.\x3c/p>","*${CAMPO_NOME}    Akemi","*Typing text 'Akemi' into text field 'id:form-nome'.","*${CAMPO_CARGO}    Desenvolvedora","*Typing text 'Desenvolvedora' into text field 'id:form-cargo'.","*${CAMPO_IMAGEM}    <a href=\"https://picsum.photos/200/300\">https://picsum.photos/200/300\x3c/a>","*Typing text '<a href=\"https://picsum.photos/200/300\">https://picsum.photos/200/300\x3c/a>' into text field 'id:form-imagem'.","*Click Element","*<p>Click the element identified by <code>locator\x3c/code>.\x3c/p>","*${CAMPO_IMAGEM}","*Clicking element 'id:form-imagem'.","*${OPCAO_PROGRAMACAO}","*Clicking element '//option[contains(.,'Programação')]'.","*E clique no botão Criar Card","*${BOTAO_CARD}","*Clicking element 'id:form-botao'.","*Então identifique o card no tempo esperado","*Element Should Be Visible","*<p>Verifies that the element identified by <code>locator\x3c/code> is visible.\x3c/p>","*class:colaborador","*Element 'class:colaborador' is displayed."]);
 </script>
 <script type="text/javascript">
-window.output["stats"] = [[{"elapsed":"00:00:17","fail":0,"label":"All Tests","pass":2,"skip":0}],[],[{"elapsed":"00:00:17","fail":0,"id":"s1","label":"First Test","name":"First Test","pass":2,"skip":0}]];
+window.output["stats"] = [[{"elapsed":"00:00:02","fail":0,"label":"All Tests","pass":1,"skip":0}],[],[{"elapsed":"00:00:02","fail":0,"id":"s1","label":"First Test","name":"First Test","pass":1,"skip":0}]];
 </script>
 <script type="text/javascript">
 window.output["errors"] = [];
 </script>
 <script type="text/javascript">
-window.output["baseMillis"] = 1767567388108;
+window.output["baseMillis"] = 1767568952610;
 </script>
 <script type="text/javascript">
-window.output["generated"] = 17228;
+window.output["generated"] = 2448;
 </script>
 <script type="text/javascript">
 window.output["expand_keywords"] = null;
